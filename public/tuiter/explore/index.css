@@ -1,0 +1,159 @@
+.wd-bg-color-dark-gray {
+    background-color: darkgray;
+}
+
+.wd-body-width {
+    width: 200px;
+}
+
+.wd-rounded-corners-all-around-13px {
+    border-radius: 13px;
+}
+
+.wd-text-move-down-20px {
+    position: relative;
+    top: 20px;
+}
+
+.wd-move-down-2d5px {
+    position: relative;
+    top: 2.5px;
+}
+
+.wd-move-to-top {
+    z-index: 10;
+}
+
+.wd-move-to-left {
+    position: relative;
+    right: 20px;
+}
+
+.wd-padding-left-50px {
+    padding-left: 50px;
+}
+
+.wd-dimension-450-25 {
+    width: 450px;
+    height: 25px;
+}
+
+.wd-move-to-right-16px {
+    position: relative;
+    left: 16px;
+}
+
+.wd-move-to-right-35px {
+    position: relative;
+    left: 35px;
+}
+
+.wd-fill-svg-color-gray {
+    fill: rgb(110, 118, 125);
+}
+
+.wd-right-border-12px {
+    position: relative;
+    right: 12px;
+    float: right;
+    direction: rtl;
+}
+
+.wd-color-text-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-link-color-highlight {
+    color: rgb(29, 162, 242);
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-pos-absolute {
+    position: absolute;
+}
+
+.wd-font-size-30 {
+    font-size: 30px;
+}
+
+.wd-grid-col-sixth {
+    /*width: 16.6%;*/
+    float: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wd-col-left-side-60pc {
+    width: 60%;
+    float: left;
+}
+
+.wd-move-left-60px {
+    position: relative;
+    right: 60px;
+}
+
+.wd-rounded-corners-all-around-15px {
+    border-radius: 15px;
+}
+
+.wd-padding-top-15px {
+    padding-top: 15px;
+}
+
+.wd-verified-icon {
+    height: 13px;
+    width: 13px;
+    fill: white;
+}
+
+.wd-move-down-2px {
+    position: relative;
+    top: 2px;
+}
+
+.wd-padding-bottom-16px {
+    padding-bottom: 16px;
+}
+
+.wd-border-bottom {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.wd-header-dimension {
+    width: 100%;
+    height: 15px
+}
+
+.wd-hyperlink-highlight {
+    padding-bottom: 12px;
+    border-style: solid;
+    border-width:  0px 0px 2px 0px;
+    border-color: rgb(29, 162, 242);
+}
+
+.wd-right-border-16px {
+    position: relative;
+    right: 16px;
+    float: right;
+    direction: rtl;
+}
+
+.wd-separated-div {
+    overflow: hidden;
+    height: 16px;
+    width: 100%;
+}
+
+.wd-border-body {
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+}
+
+.wd-bg-color-dim-gray {
+    background-color: dimgray;
+}
