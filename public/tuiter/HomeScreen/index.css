@@ -1,0 +1,111 @@
+.wd-full-width {
+    width: 100%;
+}
+
+.wd-bg-color-white {
+    background-color: white;
+}
+
+.wd-move-to-front {
+    z-index: 10;
+}
+
+.wd-move-to-right-20px {
+    left: 20px;
+    position: relative;
+}
+
+.wd-search-icon-dimension {
+    height: 12px;
+    width: 12px;
+}
+
+.wd-size-48-48 {
+    height: 48px;
+    width: 48px;
+}
+
+#circle-ellipsis {
+    position: relative;
+    right: 4px;
+    font-size: 50%;
+}
+
+#card-body->div {
+    height: 120px;
+}
+
+.wd-move-up-60px {
+    position: relative;
+    bottom: 60px;
+}
+
+.wd-move-right-10px {
+    position: relative;
+    left: 10px;
+}
+
+.wd-fix-size-400px {
+    height: 400px;
+}
+
+.wd-move-up-5px {
+    bottom: 5px;
+    position: relative;
+}
+
+.wd-font-size-15px {
+    font-size: 15px;
+}
+
+.wd-verified-icon {
+    /*position: relative;*/
+    /*right: 4px;*/
+    font-size: 50%;
+}
+
+.wd-border-bottom-round-25px {
+    border-radius: 25px;
+}
+
+.wd-bg-twitter-blue {
+    background-color: rgb(29, 161, 242);
+}
+
+.wd-text-twitter-blue {
+    color: rgb(29, 161, 242);
+}
+
+.wd-border-color-twitter-blue {
+    border-color: rgb(29, 161, 242);
+}
+
+.nav-pills->li->span {
+    position: relative;
+    right:10px
+}
+
+.wd-move-right-15px {
+    position: relative;
+    left: 15px;
+}
+
+.wd-font-size-12px {
+    font-size: 12px;
+}
+
+.wd-font-size-13px {
+    font-size: 13px;
+}
+
+.wd-border-top-rounded-corner {
+    border-radius: 12px 12px 0 0;
+}
+
+.wd-border-bottom-rounded-corner {
+    border-radius: 0 0 12px 12px;
+}
+
+.wd-border-rounded-corner {
+    border-radius: 12px;
+}
