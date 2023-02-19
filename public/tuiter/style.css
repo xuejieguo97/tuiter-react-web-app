@@ -89,3 +89,7 @@
 .wd-padding-top-16px {
     padding-top: 16px;
 }
+
+.wd-border-top-rounded-corer {
+    border-radius: 12px 12px 0 0;
+}
