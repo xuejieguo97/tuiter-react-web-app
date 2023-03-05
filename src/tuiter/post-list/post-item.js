@@ -35,7 +35,7 @@ const PostItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-1">
-                    <img src={`/images/${post.profile}`} className="rounded-circle" height="48" width="48"/>
+                    <img src={`/images/${post.profile}`} alt="post-profile" className="rounded-circle" height="48" width="48"/>
                 </div>
 
                 <div className="col-11">
