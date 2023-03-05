@@ -9,7 +9,7 @@ export default [
         retweet: "3.5K",
         likes: "37.5K",
         image : {
-            src: "../image/homescreen/countdown.jpeg",
+            src: "/image/homescreen/countdown.jpeg",
             content: {
                 title: "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
                 text: "From training to launch to landing, this all-access docuseries rides along with" +

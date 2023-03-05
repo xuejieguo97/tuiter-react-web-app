@@ -1,0 +1,7 @@
+.wd-border-rounded-corner {
+    border-radius: 12px;
+}
+.retweeted_item {
+    position: relative;
+    width: 95%;
+}
