@@ -14,7 +14,7 @@ const NavigationSidebar = () => {
 
     return (
         <div className="list-group">
-            <a className="list-group-item">Tuiter</a>
+            <a href="#" className="list-group-item">Tuiter</a>
             <Link to="/tuiter/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
                 <div className="row">
@@ -35,7 +35,7 @@ const NavigationSidebar = () => {
                 </div>
             </Link>
 
-            <a className={`list-group-item
+            <a href="#" className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -44,7 +44,7 @@ const NavigationSidebar = () => {
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Notifications</div>
                 </div>
             </a>
-            <a className={`list-group-item
+            <a href="#" className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -53,7 +53,7 @@ const NavigationSidebar = () => {
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Messages</div>
                 </div>
             </a>
-            <a className={`list-group-item
+            <a href="#" className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -62,7 +62,7 @@ const NavigationSidebar = () => {
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Bookmarks</div>
                 </div>
             </a>
-            <a className={`list-group-item
+            <a href="#" className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -71,7 +71,7 @@ const NavigationSidebar = () => {
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Lists</div>
                 </div>
             </a>
-            <a className={`list-group-item
+            <a href="#" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -80,7 +80,7 @@ const NavigationSidebar = () => {
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Profile</div>
                 </div>
             </a>
-            <a className={`list-group-item
+            <a href="#" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">

@@ -29,7 +29,7 @@ const PostItem = (
 ) => {
 
     const retweet = post.retweeted_tuiter === "" ? "" : <RetweetItem post={post.retweeted_tuiter}/>;
-    const image = post.image === "" ? "" : <img className="border-bottom border-light wd-border-rounded-corner mt-2" src={`/images/${post.image}`} alt="Card image cap" width="100%" height="330"/>;
+    const image = post.image === "" ? "" : <img className="border-bottom border-light wd-border-rounded-corner mt-2" src={`/images/${post.image}`} alt="post" width="100%" height="330"/>;
 
     return(
         <li className="list-group-item">
