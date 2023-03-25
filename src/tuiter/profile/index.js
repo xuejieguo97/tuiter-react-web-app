@@ -5,8 +5,10 @@ import {Link} from "react-router-dom";
 
 const ProfileComponent = () => {
     const profile = useSelector((state) => state.profile)
-
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const year = new Date(profile.dateOfBirth).getFullYear();
+    const monthIndex = new Date(profile.dateOfBirth).getMonth();
+    const month = monthNames[monthIndex];
     const dateJoin = profile.dateJoined.split("/")
     const monthJoin = monthNames[parseInt(dateJoin[0]) - 1]
     const yearJoin = dateJoin[1]
@@ -30,7 +32,7 @@ const ProfileComponent = () => {
                                 <i className="bi bi-geo-alt"></i> {profile.location}
                             </div>
                             <div className="col-4">
-                                <i className="bi bi-balloon"></i> Born in {profile.dateOfBirth}
+                                <i className="bi bi-balloon"></i> Born in {month} {year}
                             </div>
                             <div className="col-4">
                                 <i className="bi bi-calendar3"></i> Joined {monthJoin} {yearJoin}
