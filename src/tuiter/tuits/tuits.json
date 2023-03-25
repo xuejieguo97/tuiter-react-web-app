@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 123,
+  "topic": "Space",
+  "userName": "SpaceX",
+  "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+  "time": "2h",
+  "image": "spaceX.jpeg",
+  "liked": true,
+  "replies": 123,
+  "retuits": 432,
+  "likes": 2345,
+  "handle": "spacex",
+  "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+
+  {
+    "_id": 234,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "time": "4d",
+    "image": "tesla-48.png",
+    "liked": false,
+    "replies": 234,
+    "retuits": 543,
+    "likes": 3456,
+    "handle": "tesla",
+    "tuit": "Autopilot is an advanced driver assistance system that enhances safety and convenience behind the wheel. When used properly, Autopilot reduces your overall workload as a driver. Each new Tesla vehicle is equipped with eight external cameras and powerful vision processing to provide an additional layer of safety. All vehicles built for the North American market now use our camera-based Tesla Vision to deliver Autopilot features, rather than radar."
+
+  },
+
+  {
+    "_id": 345,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",
+    "image": "spaceX.jpeg",
+    "liked": true,
+    "replies": 345,
+    "retuits": 321,
+    "likes": 1234,
+    "handle": "spacex",
+    "tuit": "BySimon AlvarezPosted on November 20, 2019\nElon Musk’s “Blade Runner” Cybertruck may only be a couple days away from being unveiled to the world, but the vehicle, from its final specs and design, remains a mystery. The Tesla CEO has stated that the vehicle will not look like a traditional pickup truck, and this has been confirmed by teasers from the company and clever Easter Eggs hidden in the CYBRTRK event’s invitation and the vehicle’s stylized logo. \n\nConsidering that Musk has stated that the Tesla Cybertruck will look like an armored personnel carrier (APC) from the future, it’s difficult to not see the potential similarities between the vehicle and NASA’s Mars Concept Rover, which was unveiled back in 2017. NASA’s Mars Rover concept looks a lot like an APC from the future, and it looks very tough. It’s massive at 28 feet long, its ground clearance is no joke, and its modular structure allows it to perform a variety of tasks on the harsh environment of the Red Planet. "
+  }
+]

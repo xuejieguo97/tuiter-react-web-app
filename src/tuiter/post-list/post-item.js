@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faComment, faHeart} from "@fortawesome/free-regular-svg-icons";
 import {faRetweet, faUpload, faCircleCheck, faEllipsisH} from "@fortawesome/free-solid-svg-icons";
 import RetweetItem from "./retweet-item";

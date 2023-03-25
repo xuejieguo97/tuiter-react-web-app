@@ -35,7 +35,7 @@ const NavigationSidebar = () => {
                 </div>
             </Link>
 
-            <button className={`list-group-item
+            <Link className={`list-group-item disabled
                     ${active === 'notifications'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -43,8 +43,8 @@ const NavigationSidebar = () => {
                     </div>
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Notifications</div>
                 </div>
-            </button>
-            <button href="#" className={`list-group-item
+            </Link>
+            <Link to="/" className={`list-group-item disabled
                     ${active === 'messages'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -52,8 +52,8 @@ const NavigationSidebar = () => {
                     </div>
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Messages</div>
                 </div>
-            </button>
-            <button className={`list-group-item
+            </Link>
+            <Link to="/" className={`list-group-item disabled
                     ${active === 'bookmarks'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -61,8 +61,8 @@ const NavigationSidebar = () => {
                     </div>
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Bookmarks</div>
                 </div>
-            </button>
-            <button className={`list-group-item
+            </Link>
+            <Link to="/" className={`list-group-item disabled
                     ${active === 'lists'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -70,8 +70,8 @@ const NavigationSidebar = () => {
                     </div>
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Lists</div>
                 </div>
-            </button>
-            <button className={`list-group-item
+            </Link>
+            <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -79,8 +79,8 @@ const NavigationSidebar = () => {
                     </div>
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">Profile</div>
                 </div>
-            </button>
-            <button href="#" className={`list-group-item
+            </Link>
+            <Link to="/" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">
@@ -88,7 +88,7 @@ const NavigationSidebar = () => {
                     </div>
                     <div className="d-none d-xl-block col-xl-10 col-xxl-10 ps-xl-1 ps-xxl-2">More</div>
                 </div>
-            </button>
+            </Link>
             <Link to="/" className="list-group-item">
                 <div className="row">
                     <div className="col-xl-2 col-xxl-1">

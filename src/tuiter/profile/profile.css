@@ -1,0 +1,20 @@
+.profile-avatar {
+    position: relative;
+    left: 20px;
+    z-index: 5;
+    background-color: white;
+}
+
+.edit-button {
+    border-radius: 15px;
+}
+
+.move-up-50px {
+    position: relative;
+    top: -50px;
+}
+
+.move-down-55px {
+    position: relative;
+    top: 55px;
+}
