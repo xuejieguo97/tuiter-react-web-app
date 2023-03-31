@@ -3,14 +3,14 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCircleCheck} from "@fortawesome/free-solid-svg-icons";
 import TuitStats from "./tuit-stats-item";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
         post = {
             _id: 123,
             topic: "Space",
-            userName: "SpaceX",
+            username: "SpaceX",
             title: "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
             time: "2h",
             image: "spaceX.jpeg",
@@ -25,7 +25,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id))
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -37,7 +37,7 @@ const TuitItem = (
                 <div className="col-10">
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(post._id)}></i>
-                    <span className="fw-bolder">{post.userName}</span> <FontAwesomeIcon icon={faCircleCheck} className="text-primary"/>  <span className="text-muted">@{post.handle} &middot; {post.time}</span><br/>
+                    <span className="fw-bolder">{post.username}</span> <FontAwesomeIcon icon={faCircleCheck} className="text-primary"/>  <span className="text-muted">{post.handle} &middot; {post.time}</span><br/>
                     {post.tuit}
                     <TuitStats post={post}/>
                 </div>
